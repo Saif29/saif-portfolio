@@ -1,14 +1,5 @@
 <div align="center">
 
-```
-  ███████╗ █████╗ ██╗███████╗
-  ██╔════╝██╔══██╗██║██╔════╝
-  ███████╗███████║██║█████╗
-  ╚════██║██╔══██║██║██╔══╝
-  ███████║██║  ██║██║██║
-  ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  · portfolio
-```
-
 # saif-portfolio
 
 **Senior Frontend Engineer · 4+ years · React, Next.js, React Native**
