@@ -1,0 +1,117 @@
+export const data = {
+  name: "Saif Ur Rehman",
+  title: "Senior Frontend Engineer",
+  email: "saifurrehmancs@gmail.com",
+  phone: "(+92) 309-568-8231",
+  location: "Islamabad, Pakistan",
+  links: {
+    linkedin: "https://www.linkedin.com/in/saifurrehman29/",
+    linkedinDisplay: "linkedin.com/in/saifurrehman29",
+    github: "https://github.com/saif29",
+    githubDisplay: "github.com/saif29",
+  },
+
+  experience: [
+    {
+      role: "Senior Frontend Engineer",
+      company: "Alfabolt",
+      companyNote: "Nomod · Trucker Path Insurance",
+      date: "Oct 2024 — Present",
+      loc: "Sharjah, UAE · Remote",
+      bullets: [
+        "Owned frontend and mobile development for <b>Nomod</b>, a <mark>Y Combinator-backed</mark> Dubai fintech, across web and React Native — improving checkout flows and payment integrations that directly supported merchant acquisition and platform growth.",
+        "Integrated <b>Apple Pay, Google Pay, Stripe Checkout, and MyFatoorah</b> — optimizing the payment experience to reduce friction and support conversion across multiple markets.",
+        "Owned frontend for <b>Trucker Path Insurance</b>, a large enterprise product in the heavily regulated US commercial trucking industry — delivering a React.js dashboard and React Native WebView-based sales interface.",
+        "Supported backend across <b>Django microservices and Node.js/Express</b> services, providing cross-functional full-stack coverage; shipped via CI/CD and GitHub Actions.",
+      ],
+    },
+    {
+      role: "Frontend Engineer",
+      company: "Alfabolt",
+      companyNote: "DeepReel",
+      date: "Feb 2024 — Sep 2024",
+      loc: "Islamabad, Pakistan",
+      bullets: [
+        "Led frontend for <b>DeepReel</b>, a video generation platform with real-time editing — owned UI architecture and complex interactive workflows.",
+        "Shipped the <b>Video Genie</b> feature end-to-end, enabling users to convert blogs and documents into AI-generated video content.",
+        "Independently designed and shipped a custom <b>Adobe Premiere Pro extension</b> from <mark>0 → 1 in 5 weeks</mark>, learning a new framework and delivering to production under a tight timeline.",
+      ],
+    },
+    {
+      role: "Software Engineer → Frontend Team Lead",
+      company: "Graana.com",
+      companyNote: "PropTech",
+      date: "Aug 2022 — Feb 2024",
+      loc: "Islamabad, Pakistan",
+      bullets: [
+        "<mark>Promoted to Frontend Team Lead after just 8 months</mark> — recognized for ownership and technical reliability within an 8-member engineering team, well ahead of typical career progression.",
+        "Improved frontend performance using Lighthouse and React DevTools, <mark>reducing main landing page load time by 30–40%</mark> through targeted core web vitals work.",
+        "Delivered high-impact CRM features under tight deadlines, receiving direct recognition from leadership for rapid delivery of a critical product feature.",
+        "Mentored interns and supported junior engineers during onboarding; worked in Agile/Scrum cycles with structured release processes.",
+      ],
+    },
+    {
+      role: "Frontend Developer Intern",
+      company: "Graana.com",
+      companyNote: "",
+      date: "May 2022 — Jul 2022",
+      loc: "Islamabad, Pakistan",
+      bullets: [
+        "Built a Slack-inspired real-time communication app end-to-end using the <b>MERN stack, Socket.io, and WebRTC</b>.",
+        "Delivered the <b>Propsure Digital Solutions</b> frontend using Next.js and TypeScript under a tight deadline — pixel-accurate, responsive interfaces.",
+      ],
+    },
+  ],
+
+  projects: [
+    {
+      featured: true,
+      name: "Nomod",
+      tag: "Dubai-based Fintech",
+      yc: true,
+      role: "Frontend Lead — Web + React Native",
+      year: "2024 — Present",
+      desc: "Owned frontend for a <b>Y Combinator-backed</b> fintech platform enabling merchants to accept card payments via mobile. Built across the web platform and a React Native mobile app, integrating Apple Pay, Google Pay, Stripe Checkout, and MyFatoorah. Optimized checkout flows that improved payment conversion and supported the platform's merchant acquisition trajectory.",
+      stack: ["React Native", "Next.js", "TypeScript", "Stripe", "Apple Pay", "Google Pay", "MyFatoorah"],
+      showCode: true,
+    },
+    {
+      featured: false,
+      name: "Trucker Path Insurance",
+      tag: "US Truck Insurance",
+      yc: false,
+      role: "Full-stack — Frontend Owner",
+      year: "2024 — Present",
+      desc: "Large enterprise product serving the <b>heavily regulated US commercial trucking market</b>. Owned the React.js dashboard, developed a React Native WebView-based sales screen embedded in the mobile app, and contributed to backend services using Django microservices.",
+      stack: ["React.js", "React Native", "Django", "WebView", "CI/CD"],
+      showCode: false,
+    },
+    {
+      featured: false,
+      name: "DeepReel",
+      tag: "AI Video Generation",
+      yc: false,
+      role: "Frontend Lead",
+      year: "2024",
+      desc: "AI-driven video generation platform transforming text content into presenter-led videos. Shipped the <b>Video Genie</b> feature end-to-end, independently created a custom Adobe Premiere Pro extension from 0 to 1, and architected scalable UI and rendering workflows.",
+      stack: ["React", "TypeScript", "Premiere Pro Extension", "Real-time UI"],
+      showCode: false,
+    },
+  ],
+
+  skills: [
+    { cat: "Frontend Core", i: "01", tags: [{ t: "React.js", primary: true }, { t: "Next.js", primary: true }, { t: "TypeScript", primary: true }, { t: "JavaScript" }, { t: "Redux" }] },
+    { cat: "Mobile", i: "02", tags: [{ t: "React Native", primary: true }, { t: "WebView Integration" }] },
+    { cat: "Styling", i: "03", tags: [{ t: "Tailwind CSS" }, { t: "styled-components" }, { t: "CSS Modules" }, { t: "Material UI" }] },
+    { cat: "Backend & APIs", i: "04", tags: [{ t: "Node.js" }, { t: "Express" }, { t: "Django" }, { t: "REST APIs" }, { t: "Stripe" }, { t: "Apple Pay" }, { t: "Google Pay" }] },
+    { cat: "Real-time & Tooling", i: "05", tags: [{ t: "Socket.io" }, { t: "WebRTC" }, { t: "Git" }, { t: "GitHub Actions" }, { t: "CI/CD" }, { t: "Lighthouse" }, { t: "React DevTools" }] },
+    { cat: "Testing & Process", i: "06", tags: [{ t: "Cypress" }, { t: "Agile / Scrum" }, { t: "Jira" }, { t: "AI-assisted dev (Copilot, Claude Code)", primary: true }] },
+  ],
+
+  education: {
+    degree: "Bachelor of Science in Computer Science",
+    school: "National University of Sciences and Technology (NUST)",
+    when: "2018 — 2022",
+    where: "Islamabad, Pakistan",
+  },
+} as const;
