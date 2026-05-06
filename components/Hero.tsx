@@ -26,7 +26,7 @@ export function Hero() {
         <div className="hero-bottom">
           <p className="role mono reveal" style={{ "--d": "300ms" } as React.CSSProperties}>
             <b>Senior Frontend Engineer</b> with 4+ years building scalable products
-            across fintech, insurance, AI &amp; real estate — including a
+            across fintech, insurance, AI &amp; real estate, including a
             Y Combinator-backed startup. Comfortable in high-ownership, ship-fast
             environments.
           </p>

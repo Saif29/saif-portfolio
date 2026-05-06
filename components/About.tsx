@@ -22,12 +22,12 @@ export function About() {
             <p className="reveal" style={{ "--d": "80ms" } as React.CSSProperties}>
               Frontend-focused engineer who treats the UI as a <span className="em">product surface</span>,
               not a stack of components. I&apos;ve shipped across fintech, insurance, AI video,
-              and real estate — including a <span className="em">Y Combinator-backed</span> startup
+              and real estate, including a <span className="em">Y Combinator-backed</span> startup
               where I owned web and React Native end-to-end.
             </p>
             <p className="reveal" style={{ "--d": "160ms" } as React.CSSProperties}>
               <span className="dim">Strong on </span>React, Next.js, TypeScript, Redux, React Native
-              <span className="dim"> — with hands-on full-stack work in Django and Node. Comfortable
+              <span className="dim">, with hands-on full-stack work in Django and Node. Comfortable
               going from </span>0 → 1 in five weeks<span className="dim">, leading small teams,
               and making the kind of measured performance bets that move the needle.</span>
             </p>
