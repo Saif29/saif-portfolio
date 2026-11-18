@@ -13,7 +13,7 @@ export function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="shell">
-        <SectionHead num="05" title="Contact" label="// open to senior FE roles" />
+        <SectionHead num="05" title="Contact" label="// open to full-stack roles" />
         <div className="contact-inner">
           <div>
             <h2 className="reveal">
@@ -21,8 +21,8 @@ export function Contact() {
               worth <span className="accent">building?</span>
             </h2>
             <p className="lead reveal" style={{ "--d": "120ms" } as React.CSSProperties}>
-              I&apos;m open to senior frontend roles, contract work, and founding-engineer
-              conversations. Fastest reply by email.
+              I&apos;m open to full-stack engineering roles, contract work, and founding-engineer
+              conversations. Remote or relocation. Fastest reply by email.
             </p>
             <a className="contact-cta reveal" style={{ "--d": "220ms" } as React.CSSProperties} href={`mailto:${data.email}`}>
               <span>{data.email}</span>

@@ -12,6 +12,7 @@ export function Education() {
           <div className="what">
             {e.degree}
             <span className="school">{e.school}</span>
+            <span className="school" style={{ opacity: 0.7 }}>CGPA: {e.cgpa}</span>
           </div>
           <div className="where">{e.where}</div>
         </div>
