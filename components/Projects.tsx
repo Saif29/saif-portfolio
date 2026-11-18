@@ -34,28 +34,30 @@ function ProjectCard({ p, idx }: { p: Project; idx: number }) {
 
       {p.showCode && (
         <pre className="code-block">
-          <span>{`> nomod.checkout.optimize({\n    `}</span>
-          <span className="k">providers</span>
-          <span>{`: [`}</span>
-          <span className="s">&quot;applePay&quot;</span>
+          <span>{`> whizpay.payouts.send({\n    `}</span>
+          <span className="k">rails</span>
+          <span>{`:    [`}</span>
+          <span className="s">&quot;ach&quot;</span>
           <span>{`, `}</span>
-          <span className="s">&quot;googlePay&quot;</span>
+          <span className="s">&quot;fedwire&quot;</span>
           <span>{`, `}</span>
-          <span className="s">&quot;stripe&quot;</span>
+          <span className="s">&quot;swift&quot;</span>
           <span>{`, `}</span>
-          <span className="s">&quot;myFatoorah&quot;</span>
+          <span className="s">&quot;crypto&quot;</span>
           <span>{`],\n    `}</span>
-          <span className="k">platforms</span>
+          <span className="k">clients</span>
           <span>{`:  [`}</span>
           <span className="s">&quot;web&quot;</span>
           <span>{`, `}</span>
-          <span className="s">&quot;reactNative&quot;</span>
+          <span className="s">&quot;mobile&quot;</span>
+          <span>{`, `}</span>
+          <span className="s">&quot;admin&quot;</span>
           <span>{`],\n    `}</span>
-          <span className="k">conversion</span>
+          <span className="k">handled</span>
           <span>{`:  `}</span>
-          <span className="n">&quot;↑&quot;</span>
+          <span className="n">&quot;$1M+ / 5mo&quot;</span>
           <span>{` `}</span>
-          <span className="c">// merchants growth ✓</span>
+          <span className="c">// 2,000+ customers ✓</span>
           <span>{`\n  })`}</span>
         </pre>
       )}
